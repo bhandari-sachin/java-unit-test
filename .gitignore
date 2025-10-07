@@ -1,0 +1,69 @@
+### IntelliJ IDEA ###
+.idea/
+*.iml
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Build output ###
+build/
+target/
+classes/
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### Libraries ###
+# Ignore downloaded JARs unless you manage them manually
+# If you manually added JUnit jars in /lib, keep them tracked:
+# Remove 'lib/' from ignore if you want them in Git.
+# Uncomment below line to ignore them instead.
+lib/
+
+### Logs and temp ###
+*.log
+*.tmp
+*.swp
+*.bak
+
+### OS files ###
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### JetBrains Copilot ###
+.idea/copilot.*
+
+### Other IntelliJ metadata ###
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/**/httpRequests
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/libraries/
